@@ -64,3 +64,182 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+*
+{
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+h3
+{
+	font-size: 1.25em;
+}
+
+hr
+{
+	margin: 50px 0;
+}
+button
+{
+	padding: 5px;
+	border: solid black 1px;
+	background: white;
+	font-size: 1.15em;
+	flex-basis: content;
+}
+
+a
+{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+#container
+{
+	padding: 0 400px;
+}
+
+#navDiv ul li
+{
+	color: lightgrey;
+	display: flex;
+}
+
+#navDiv ul
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#headSection
+{
+	margin: 50px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#bigHead
+{
+	display: flex;
+	flex-flow: column nowrap;
+	margin-bottom: 50px;
+}
+
+#bigHead h1
+{
+	font-size: 100px;
+	text-align: center;
+}
+
+#topSection
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#bottomSection
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.topDiv
+{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.bottomDiv
+{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+}
+
+.middle-img
+{
+	width: 100%;
+	margin: 25px 0;
+}
+
+#numInfo
+{
+	line-height: 4em;
+}
+
+#crInfo
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*==================================================*/
+
+h2
+{
+	font-size: 25px;
+}
+
+#head
+{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#navDiv
+{
+	margin-bottom: 25px;
+}
+
+#centerContent
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#centerContent .columnDiv div
+{
+	background: lightgrey;
+	border: 1px black solid;
+	margin: 25px 0;
+	padding: 20px;
+	width: 400px;
+}
+
+#centerContent .columnDiv button
+{
+	margin: 15px 0 0 0;
+	padding: 5px 30px;
+	font-size: 15px;
+}
+
+#serviceFooter
+{
+	display: flex;
+}
+
+#serviceFooter div ul
+{
+	list-style-type: disc;
+}
+
+#randoUL
+{
+	line-height: 2;
+	margin-top: 20px;
+}
+
+.columnDiv
+{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#head div
+{
+	margin-top: 25px;
+}
